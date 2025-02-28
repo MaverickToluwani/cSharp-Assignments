@@ -1,0 +1,14 @@
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\bin\Debug\net8.0\AreaOfCircle.exe
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\bin\Debug\net8.0\AreaOfCircle.deps.json
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\bin\Debug\net8.0\AreaOfCircle.runtimeconfig.json
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\bin\Debug\net8.0\AreaOfCircle.dll
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\bin\Debug\net8.0\AreaOfCircle.pdb
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\AreaOfCircle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\AreaOfCircle.AssemblyInfoInputs.cache
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\AreaOfCircle.AssemblyInfo.cs
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\AreaOfCircle.csproj.CoreCompileInputs.cache
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\AreaOfCircle.dll
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\refint\AreaOfCircle.dll
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\AreaOfCircle.pdb
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\AreaOfCircle.genruntimeconfig.cache
+C:\Users\Toluwani.lekan\Desktop\ETLClass\FirstApp\FirstApp\obj\Debug\net8.0\ref\AreaOfCircle.dll
