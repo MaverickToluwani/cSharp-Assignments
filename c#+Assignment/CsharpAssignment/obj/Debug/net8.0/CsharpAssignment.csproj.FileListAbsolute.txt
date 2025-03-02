@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\bin\Debug\net8.0\CsharpAssignment.exe
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\bin\Debug\net8.0\CsharpAssignment.deps.json
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\bin\Debug\net8.0\CsharpAssignment.runtimeconfig.json
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\bin\Debug\net8.0\CsharpAssignment.dll
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\bin\Debug\net8.0\CsharpAssignment.pdb
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\CsharpAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\CsharpAssignment.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\CsharpAssignment.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\CsharpAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\CsharpAssignment.dll
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\refint\CsharpAssignment.dll
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\CsharpAssignment.pdb
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\CsharpAssignment.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\c#+Assignment\CsharpAssignment\obj\Debug\net8.0\ref\CsharpAssignment.dll
