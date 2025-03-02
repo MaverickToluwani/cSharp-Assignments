@@ -19,7 +19,11 @@ namespace CsharpAssignment
         //Question2
         //Divideby3Assignment1.Divideby3();
 
+        //EnterNumberAssignment2.EnterNumber();
+        //FactoialAssignment3.FactoialShell();
 
+        //SecretNumberAssignment4.SecretNumber();
+        MaxRandomAssignment5.MaxRandom();
       }
   }
 }
