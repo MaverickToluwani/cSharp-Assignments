@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-dbconnection\\dbconnectionobject\\dbconnectionobject\\dbcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|solutionrelative:dbconnectionobject\\dbcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-dbconnection\\dbconnectionobject\\dbconnectionobject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|solutionrelative:dbconnectionobject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-dbconnection\\dbconnectionobject\\dbconnectionobject\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|solutionrelative:dbconnectionobject\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-dbconnection\\dbconnectionobject\\dbconnectionobject\\oracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|solutionrelative:dbconnectionobject\\oracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-dbconnection\\dbconnectionobject\\dbconnectionobject\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17711997-0177-4C8D-BA8D-EFB18A482F6B}|DBConnectionObject\\DBConnectionObject.csproj|solutionrelative:dbconnectionobject\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\DbCommand.cs",
+              "RelativeDocumentMoniker": "DBConnectionObject\\DbCommand.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\DbCommand.cs",
+              "RelativeToolTip": "DBConnectionObject\\DbCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:57:03.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OracleConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\OracleConnection.cs",
+              "RelativeDocumentMoniker": "DBConnectionObject\\OracleConnection.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\OracleConnection.cs",
+              "RelativeToolTip": "DBConnectionObject\\OracleConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:55:48.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqlConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\SqlConnection.cs",
+              "RelativeDocumentMoniker": "DBConnectionObject\\SqlConnection.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\SqlConnection.cs",
+              "RelativeToolTip": "DBConnectionObject\\SqlConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:48:45.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\DbConnection.cs",
+              "RelativeDocumentMoniker": "DBConnectionObject\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\DbConnection.cs",
+              "RelativeToolTip": "DBConnectionObject\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:46:40.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\Program.cs",
+              "RelativeDocumentMoniker": "DBConnectionObject\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-DbConnection\\DBConnectionObject\\DBConnectionObject\\Program.cs",
+              "RelativeToolTip": "DBConnectionObject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:36:10.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
