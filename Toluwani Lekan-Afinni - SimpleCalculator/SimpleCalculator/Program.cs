@@ -21,7 +21,13 @@
 
         }
 
-
+        /// <summary>
+        /// SimpleCalculator: Models a simple calculator, and displays result of operation
+        /// on the console
+        /// </summary>
+        /// <param name="FirstValue"></param>
+        /// <param name="SecondValue"></param>
+        /// <param name="Operation"></param>
         static void SimpleCalculator(double FirstValue, double SecondValue, char Operation)
         {
             double result = 0;

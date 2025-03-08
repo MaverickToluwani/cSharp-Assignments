@@ -9,7 +9,11 @@
             Console.WriteLine(result);
         }
 
-
+        /// <summary>
+        /// AreaOfCircle: Calculates the area of a circle
+        /// </summary>
+        /// <param name="radius"></param>
+        /// <returns></returns>
         static double AreaOfCircle(double radius)
         {
             const double PI = Math.PI;

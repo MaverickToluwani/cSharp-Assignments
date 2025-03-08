@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Toluwani.lekan\\Desktop\\ETLClass\\SimpleCalculator\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani Lekan-Afinni - SimpleCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{904FF6D8-D5C5-4EB0-A2FB-DE96A8B8DB0E}|SimpleCalculator\\SimpleCalculator.csproj|c:\\users\\toluwani.lekan\\desktop\\etlclass\\simplecalculator\\simplecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{904FF6D8-D5C5-4EB0-A2FB-DE96A8B8DB0E}|SimpleCalculator\\SimpleCalculator.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani lekan-afinni - simplecalculator\\simplecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{904FF6D8-D5C5-4EB0-A2FB-DE96A8B8DB0E}|SimpleCalculator\\SimpleCalculator.csproj|solutionrelative:simplecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Toluwani.lekan\\Desktop\\ETLClass\\SimpleCalculator\\SimpleCalculator\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani Lekan-Afinni - SimpleCalculator\\SimpleCalculator\\Program.cs",
               "RelativeDocumentMoniker": "SimpleCalculator\\Program.cs",
-              "ToolTip": "C:\\Users\\Toluwani.lekan\\Desktop\\ETLClass\\SimpleCalculator\\SimpleCalculator\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani Lekan-Afinni - SimpleCalculator\\SimpleCalculator\\Program.cs",
               "RelativeToolTip": "SimpleCalculator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwBkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T06:15:15.421Z",
               "EditorCaption": ""
