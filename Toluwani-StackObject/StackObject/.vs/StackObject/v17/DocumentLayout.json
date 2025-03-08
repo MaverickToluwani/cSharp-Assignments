@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-StackObject\\StackObject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81FC8023-BCB5-4BEE-8E7A-C05255103CE3}|StackObject\\StackObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-stackobject\\stackobject\\stackobject\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81FC8023-BCB5-4BEE-8E7A-C05255103CE3}|StackObject\\StackObject.csproj|solutionrelative:stackobject\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FC8023-BCB5-4BEE-8E7A-C05255103CE3}|StackObject\\StackObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-stackobject\\stackobject\\stackobject\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81FC8023-BCB5-4BEE-8E7A-C05255103CE3}|StackObject\\StackObject.csproj|solutionrelative:stackobject\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FC8023-BCB5-4BEE-8E7A-C05255103CE3}|StackObject\\StackObject.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani-stackobject\\stackobject\\stackobject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81FC8023-BCB5-4BEE-8E7A-C05255103CE3}|StackObject\\StackObject.csproj|solutionrelative:stackobject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IStack.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-StackObject\\StackObject\\StackObject\\IStack.cs",
+              "RelativeDocumentMoniker": "StackObject\\IStack.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-StackObject\\StackObject\\StackObject\\IStack.cs",
+              "RelativeToolTip": "StackObject\\IStack.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:35:43.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stack.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-StackObject\\StackObject\\StackObject\\Stack.cs",
+              "RelativeDocumentMoniker": "StackObject\\Stack.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-StackObject\\StackObject\\StackObject\\Stack.cs",
+              "RelativeToolTip": "StackObject\\Stack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:35:25.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-StackObject\\StackObject\\StackObject\\Program.cs",
+              "RelativeDocumentMoniker": "StackObject\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani-StackObject\\StackObject\\StackObject\\Program.cs",
+              "RelativeToolTip": "StackObject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:33:10.803Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
