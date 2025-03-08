@@ -1,8 +1,13 @@
 //EnterNumberAssignment2
-namespace Question2.CsharpAssignment
+namespace QuestionTwo.CsharpAssignment
 {
-  public static class EnterNumberAssignment2
+  public static class EnterNumberAssignmentTwo
   {
+        /// <summary>
+        /// EnterNumber: Checks if a what is entered by the user is a number then sums them up
+        ///              until user enters ok.
+        /// <returns>Returns void, but Displays results to the console</returns>
+        /// </summary>
       public static void EnterNumber()
       {
 
@@ -12,7 +17,7 @@ namespace Question2.CsharpAssignment
 
         while(flag)
         {
-              Console.Write("Enter number: ");
+              Console.Write("Enter number or enter ok to end program: ");
 
               string number = Console.ReadLine();
 

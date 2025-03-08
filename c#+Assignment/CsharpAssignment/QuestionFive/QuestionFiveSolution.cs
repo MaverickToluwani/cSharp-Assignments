@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 
-namespace Question3.CsharpAssignment
+namespace QuestionFive.CsharpAssignment
 {
-    public static class Question5
+    public static class QuestionFiveSolution
     {
+        /// <summary>
+        /// CountWordsInFile: Counts vwords in a file
+        /// <returns>Returns null, but displays word count</returns>
+        /// </summary>
         public static void CountWordsInFile()
         {
             Console.Write("Enter file path: ");
@@ -19,7 +23,10 @@ namespace Question3.CsharpAssignment
             else
                 Console.WriteLine("File not found");
         }
-
+        /// <summary>
+        /// FindLongestWordInFile: Find longest word in file
+        /// <returns>Returns null, display longest word</returns>
+        /// </summary>
         public static void FindLongestWordInFile()
         {
             Console.Write("Enter file path: ");

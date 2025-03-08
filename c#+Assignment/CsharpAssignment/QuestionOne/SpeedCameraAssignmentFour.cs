@@ -1,7 +1,11 @@
-namespace Question1.CsharpAssignment
+namespace QuestionOne.CsharpAssignment
 {
-    public static class SpeedCameraAssignment4
+    public static class SpeedCameraAssignmentFour
     {
+        /// <summary>
+        /// CheckSpeed: Determines if a car speed is above or below the speed limit
+        /// <returns>Returns void, but Displays results to the console</returns>
+        /// </summary>
         public static void CheckSpeed()
         {
             Console.Write("Enter the speed limit: ");

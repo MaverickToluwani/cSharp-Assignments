@@ -3,19 +3,39 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 
-namespace Question3.CsharpAssignment
+namespace QuestionFour.CsharpAssignment
 {
-    public static class Question4
+    public static class QuestionFourSolution
     {
+        /// <summary>
+        /// CheckConsecutiveNumbers: Checks if numbers entered that are seperated by hyphens are consecutive
+        /// <returns>Returns null, but displays consecutive or not consecutive</returns>
+        /// </summary>
         public static void CheckConsecutiveNumbers()
         {
             Console.Write("Enter numbers separated by hyphens: ");
             var input = Console.ReadLine();
             var numbers = input.Split('-').Select(int.Parse).ToList();
-            bool isConsecutive = numbers.Zip(numbers.Skip(1), (a, b) => b - a).Distinct().Count() == 1;
-            Console.WriteLine(isConsecutive ? "Consecutive" : "Not Consecutive");
+            
+            for(int i = 0; i < numbers.Count; i++)
+            {
+                //For out of index problem
+                if (i == numbers.Count - 1)
+                    break;
+
+                if (numbers[i] + 1 != numbers[i + 1])
+                {
+                    Console.WriteLine("Not consecutive");
+                    return;
+                }
+            }
+            Console.WriteLine("Consecutive");
         }
 
+        /// <summary>
+        /// CheckDuplicates: Checks if numbers entered that are seperated by hyphens have duplicates
+        /// <returns>Returns null, but displays Duplicate or No Duplicates</returns>
+        /// </summary>
         public static void CheckDuplicates()
         {
             Console.Write("Enter numbers separated by hyphens: ");
@@ -25,6 +45,10 @@ namespace Question3.CsharpAssignment
             Console.WriteLine(numbers.Count != numbers.Distinct().Count() ? "Duplicate" : "No Duplicates");
         }
 
+        /// <summary>
+        /// ValidateTime: Checks if time value entered by user is a valid time
+        /// <returns>Returns null, but displays Ok or Invalid time</returns>
+        /// </summary>
         public static void ValidateTime()
         {
             Console.Write("Enter time in 24-hour format (HH:MM): ");
@@ -35,6 +59,10 @@ namespace Question3.CsharpAssignment
                 Console.WriteLine("Invalid Time");
         }
 
+        /// <summary>
+        /// ConvertToPascalCase: Converts words entered to variable name with pascalCase
+        /// <returns>Returns null, but displays Pascalcase representation of words entered</returns>
+        /// </summary>
         public static void ConvertToPascalCase()
         {
             Console.Write("Enter words separated by space: ");
@@ -43,6 +71,10 @@ namespace Question3.CsharpAssignment
             Console.WriteLine(pascalCase);
         }
 
+        /// <summary>
+        /// CountVowels: Counts vowels in users name
+        /// <returns>Returns null, but displays vowel count</returns>
+        /// </summary>
         public static void CountVowels()
         {
             Console.Write("Enter an English word: ");

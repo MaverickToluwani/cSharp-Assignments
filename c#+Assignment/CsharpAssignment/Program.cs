@@ -1,5 +1,8 @@
-﻿using Question1.CsharpAssignment;
-using Question2.CsharpAssignment;
+﻿using QuestionOne.CsharpAssignment;
+using QuestionTwo.CsharpAssignment;
+using QuestionFour.CsharpAssignment;
+using QuestionThree.CsharpAssignment;
+using QuestionFive.CsharpAssignment;
 
 namespace CsharpAssignment
 {
@@ -7,23 +10,37 @@ namespace CsharpAssignment
   {
       static void Main(string[] args)
       {
-        //Question1
-        //ValidNumberAssignment1.ValidNumber();
+            //QuestionOne
+            //ValidNumberAssignmentOne.ValidNumber();
 
-        //MaxNumberAssignment2.MaxNumber();
+            //MaxNumberAssignmentTwo.MaxNumber();
 
-        //LandScapePortraitAssignmnet3.LandScapePortrait();
+            //LandScapePortraitAssignmnetThree.LandScapePortrait();
 
-        //SpeedCameraAssignment4.CheckSpeed();
+            //SpeedCameraAssignmentFour.CheckSpeed();
 
-        //Question2
-        //Divideby3Assignment1.Divideby3();
+            //QuestionTwo
+            //Divideby3AssignmentOne.Divideby3();
 
-        //EnterNumberAssignment2.EnterNumber();
-        //FactoialAssignment3.FactoialShell();
+            //EnterNumberAssignmentTwo.EnterNumber();
+            //FactoialAssignmentThree.FactoialShell();
 
-        //SecretNumberAssignment4.SecretNumber();
-        MaxRandomAssignment5.MaxRandom();
+            //SecretNumberAssignmentFour.SecretNumber();
+            //MaxRandomAssignmentFive.MaxRandom();
+
+            //QuestionThree
+            //QuestionThreeSolution.ReverseName();
+
+            //QuestionFour
+            //QuestionFourSolution.CheckConsecutiveNumbers();
+            //QuestionFourSolution.ValidateTime();
+            //QuestionFourSolution.CheckDuplicates();
+            //QuestionFourSolution.CountVowels();
+            //QuestionFourSolution.ConvertToPascalCase();
+
+            //QuestionFive
+            //QuestionFiveSolution.CountWordsInFile();
+            //QuestionFiveSolution.FindLongestWordInFile();
       }
   }
 }

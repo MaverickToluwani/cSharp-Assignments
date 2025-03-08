@@ -1,9 +1,13 @@
 //FactoialAssignment3
 
-namespace Question2.CsharpAssignment
+namespace QuestionTwo.CsharpAssignment
 {
-  public static class FactoialAssignment3
+  public static class FactoialAssignmentThree
   {
+        /// <summary>
+        /// FactoialShell: Compute the factorial of any number entered by the user using recursion 
+        /// <returns>Returns void, but Displays results to the console</returns>
+        /// </summary>
       public static void FactoialShell()
       {
 
@@ -25,6 +29,11 @@ namespace Question2.CsharpAssignment
 
       }
 
+        /// <summary>
+        /// Factoial: Compute the factorial of any number using recursion 
+        /// <param name="number">number to be factorized.</param>
+        /// <returns>Returns result of factorization process</returns>
+        /// </summary>
       public static int Factoial(int number)
       {
         if (number == 0 || number == 1)

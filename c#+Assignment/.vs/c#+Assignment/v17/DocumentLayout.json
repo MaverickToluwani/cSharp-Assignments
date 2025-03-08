@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\c#\u002BAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{731A5495-54A2-4044-8271-F7FCE541D676}|CsharpAssignment\\CsharpAssignment.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\c#\u002Bassignment\\csharpassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731A5495-54A2-4044-8271-F7FCE541D676}|CsharpAssignment\\CsharpAssignment.csproj|solutionrelative:csharpassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731A5495-54A2-4044-8271-F7FCE541D676}|CsharpAssignment\\CsharpAssignment.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\c#\u002Bassignment\\csharpassignment\\questionfive\\questionfivesolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731A5495-54A2-4044-8271-F7FCE541D676}|CsharpAssignment\\CsharpAssignment.csproj|solutionrelative:csharpassignment\\questionfive\\questionfivesolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731A5495-54A2-4044-8271-F7FCE541D676}|CsharpAssignment\\CsharpAssignment.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\c#\u002Bassignment\\csharpassignment\\questionfour\\questionfoursolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731A5495-54A2-4044-8271-F7FCE541D676}|CsharpAssignment\\CsharpAssignment.csproj|solutionrelative:csharpassignment\\questionfour\\questionfoursolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionFiveSolution.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\c#\u002BAssignment\\CsharpAssignment\\QuestionFive\\QuestionFiveSolution.cs",
+              "RelativeDocumentMoniker": "CsharpAssignment\\QuestionFive\\QuestionFiveSolution.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\c#\u002BAssignment\\CsharpAssignment\\QuestionFive\\QuestionFiveSolution.cs",
+              "RelativeToolTip": "CsharpAssignment\\QuestionFive\\QuestionFiveSolution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:06:39.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionFourSolution.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\c#\u002BAssignment\\CsharpAssignment\\QuestionFour\\QuestionFourSolution.cs",
+              "RelativeDocumentMoniker": "CsharpAssignment\\QuestionFour\\QuestionFourSolution.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\c#\u002BAssignment\\CsharpAssignment\\QuestionFour\\QuestionFourSolution.cs",
+              "RelativeToolTip": "CsharpAssignment\\QuestionFour\\QuestionFourSolution.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:43:22.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\c#\u002BAssignment\\CsharpAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "CsharpAssignment\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\c#\u002BAssignment\\CsharpAssignment\\Program.cs",
+              "RelativeToolTip": "CsharpAssignment\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:08:10.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
