@@ -19,7 +19,7 @@ namespace DataAccessLayer.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
 
-        public DbSet<CategoryZ> CategoryZs { get; set; }
+        public DbSet<CategoryZ> CategoriesZ { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Like> Likes { get; set; }
         public DbSet<Post> Posts { get; set; }

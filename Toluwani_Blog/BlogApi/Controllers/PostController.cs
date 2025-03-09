@@ -23,7 +23,7 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllUsers()
+        public IActionResult GetAllPosts()
         {
             return Ok(_postService.GetAllPost());
         }

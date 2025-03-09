@@ -50,15 +50,15 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            User? category = _userRepository.GetUser(id);
+            User? UserData = _userRepository.GetUser(id);
 
-            if (category == null)
+            if (UserData == null)
             {
                 message = "Return a Number";
                 return false;
             }
 
-            _userRepository.DeleteUser(category);
+            _userRepository.DeleteUser(UserData);
             message = "Deleted Successfully";
             return true;
 

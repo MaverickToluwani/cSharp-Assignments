@@ -36,7 +36,7 @@ namespace DataAccessLayer.IRepositories
         /// <summary>
         /// Delete user
         /// </summary>
-        /// <param name="category"></param>
+        /// <param name="user"></param>
         void DeleteUser(User user);
 
 
@@ -50,7 +50,7 @@ namespace DataAccessLayer.IRepositories
         /// <summary>
         /// Update user Details
         /// </summary>
-        /// <param name="category"></param>
+        /// <param name="user"></param>
         /// <returns>Updated Object</returns>
         User? Update(User user);
     }

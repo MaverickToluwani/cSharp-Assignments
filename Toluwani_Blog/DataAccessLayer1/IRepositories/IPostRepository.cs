@@ -50,7 +50,7 @@ namespace DataAccessLayer.IRepositories
         /// <summary>
         /// Update user Details
         /// </summary>
-        /// <param name="category"></param>
+        /// <param name="post"></param>
         /// <returns>Updated Object</returns>
         Post? UpdatePost(Post post);
     }
