@@ -1,5 +1,4 @@
-﻿using DomainLayer.Models;
-using DomainLayer.Models.BlogModels;
+﻿using DomainLayer.Models.BlogModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,50 +7,51 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.IRepositories
 {
-    public interface IUserRepository
+    public interface IPostRepository
     {
         /// <summary>
         /// Get user by Id
         /// </summary>
         /// <param name="id"></param>
         /// <returns>user Object by Id</returns>
-        User? GetUser(int id);
+        Post? GetPostById(int id);
+
 
         /// <summary>
         /// Get user by role
         /// </summary>
-        /// <param name="role"></param>
+        /// <param name="AuthorId"></param>
         /// <returns>user Object by Id</returns>
-        User? GetUserByRole(string role);
+        List<Post> GetPostByAuthorId(int AuthorId);
 
 
         /// <summary>
         /// All users
         /// </summary>
         /// <returns>List of users</returns>
-        List<User> GetAllUsers();
+        List<Post> GetAllPost();
 
 
 
         /// <summary>
         /// Delete user
         /// </summary>
-        /// <param name="category"></param>
-        void DeleteUser(User user);
+        /// <param name="post"></param>
+        void DeletePost(Post post);
 
 
         /// <summary>
         /// Create User
         /// </summary>
-        /// <param name="user"></param>
+        /// <param name="post"></param>
         /// <returns>User Object</returns>
-        User CreateUser(User user);
+        Post CreatePost(Post post);
 
         /// <summary>
         /// Update user Details
         /// </summary>
         /// <param name="category"></param>
         /// <returns>Updated Object</returns>
-        User? Update(User user);
+        Post? UpdatePost(Post post);
     }
 }

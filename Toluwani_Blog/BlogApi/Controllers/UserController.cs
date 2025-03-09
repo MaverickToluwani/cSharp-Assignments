@@ -1,4 +1,5 @@
-﻿using BusinessLogicLayer.IService;
+﻿using BusinessLogicLayer.CategoryService;
+using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperMethods;
 using DomainLayer.DTO;
 using DomainLayer.DTO.UserDTO;
@@ -21,6 +22,11 @@ namespace BlogApi.Controllers
             _userMapper = userMapper;
         }
 
+        [HttpGet]
+        public IActionResult GetAllUsers()
+        {
+            return Ok(_userService.GetAllUsers());
+        }
 
         [HttpGet]
         public IActionResult GetById(int id)

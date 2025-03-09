@@ -18,6 +18,7 @@ namespace BusinessLogicLayer.MapperMethods
                 Title = CreatePostDto.Title,
                 Content = CreatePostDto.Content,
                 CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now,
                 AuthorId = CreatePostDto.AuthorId,
                 CategoryId = CreatePostDto.CategoryId,
             };

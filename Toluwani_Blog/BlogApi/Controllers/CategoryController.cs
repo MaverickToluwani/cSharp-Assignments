@@ -26,21 +26,21 @@ namespace BlogApi.Controllers
             return Ok(_categoryService.GetAllCategory());
         }
 
-        //[HttpGet]
-        //public IActionResult GetById(int id)
-        //{
-        //    Category category = _categoryService.GetUser(id);
+        [HttpGet]
+        public IActionResult GetById(int id)
+        {
+            Category category = _categoryService.GetCategory(id);
 
-        //    if(category == null)
-        //    {
-        //        return NotFound();
-        //    }
+            if (category == null)
+            {
+                return NotFound();
+            }
 
-           
-        //    CategoryDto categoryDto = _categoryMapper.MapCategoryToCategoryDto(category);
 
-        //    return Ok(categoryDto);
-        //}
+            CategoryDto categoryDto = _categoryMapper.MapCategoryToCategoryDto(category);
+
+            return Ok(categoryDto);
+        }
 
         [HttpPost]
         public IActionResult CreateCategory([FromBody] CreateRequestCategoryDto category)
