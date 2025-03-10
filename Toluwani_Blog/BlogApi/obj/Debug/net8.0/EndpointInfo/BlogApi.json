@@ -132,6 +132,133 @@
         }
       }
     },
+    "/api/CategoryZ/GetCategory": {
+      "get": {
+        "tags": [
+          "CategoryZ"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CategoryZ/GetById": {
+      "get": {
+        "tags": [
+          "CategoryZ"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CategoryZ/CreateCategory": {
+      "post": {
+        "tags": [
+          "CategoryZ"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryZDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryZDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryZDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CategoryZ/UpdateCategory": {
+      "post": {
+        "tags": [
+          "CategoryZ"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryZDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryZDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryZDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CategoryZ/DeleteCategory": {
+      "delete": {
+        "tags": [
+          "CategoryZ"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteRequestCategoryZDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteRequestCategoryZDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteRequestCategoryZDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Like/GetAllLikes": {
       "get": {
         "tags": [
@@ -550,6 +677,16 @@
   },
   "components": {
     "schemas": {
+      "CategoryZDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreatePostRequest": {
         "type": "object",
         "properties": {
@@ -615,6 +752,16 @@
         "additionalProperties": false
       },
       "DeleteRequestCategoryDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteRequestCategoryZDto": {
         "type": "object",
         "properties": {
           "id": {

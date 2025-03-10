@@ -74,6 +74,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BlogApi.Controllers.CategoryZController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/CategoryZ/CreateCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "DomainLayer.DTO.CategoryDTO.CategoryZDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.CategoryZController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/CategoryZ/DeleteCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "DomainLayer.DTO.CategoryDTO.DeleteRequestCategoryZDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.CategoryZController",
+    "Method": "GetById",
+    "RelativePath": "api/CategoryZ/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.CategoryZController",
+    "Method": "GetCategory",
+    "RelativePath": "api/CategoryZ/GetCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApi.Controllers.CategoryZController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/CategoryZ/UpdateCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "DomainLayer.DTO.CategoryDTO.CategoryZDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BlogApi.Controllers.LikeController",
     "Method": "GetAllLikes",
     "RelativePath": "api/Like/GetAllLikes",

@@ -1,6 +1,8 @@
 ﻿using BusinessLogicLayer.IService;
 using DataAccessLayer.IRepositories;
+using DataAccessLayer.Repositries;
 using DomainLayer.Models;
+using DomainLayer.Models.BlogModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,17 +14,17 @@ namespace BusinessLogicLayer.Service
     public class CategoriesZService: ICategoriesZService
     {
         //Private variable that stores the ICategoryRepository object
-        private readonly ICategoryZ _categoryRepository;
+        private readonly ICategoryZRepository _categoryZRepository;
 
         //Constructor of the CategoryService class
         //Require a ICategoryRepository object when creating the CategoryService class
-        public CategoriesZService(ICategory categoryRepository)
+        public CategoriesZService(ICategoryZRepository categoryZRepository)
         {
             //this assigns the passed in categoryRepository to the private variable _categoryRepository
-            _categoryRepository = categoryRepository;
+            _categoryZRepository = categoryZRepository;
         }
 
-        public Category? CreateCategory(Category category, out string message)
+        public CategoryZ? CreateCategory(CategoryZ category, out string message)
         {
             if (string.IsNullOrWhiteSpace(category.Name))
             {
@@ -30,13 +32,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            if (string.IsNullOrWhiteSpace(category.Description))
-            {
-                message = "Description Cannot be empty";
-                return null;
-            }
-
-            Category result = _categoryRepository.Create(category);
+            CategoryZ result = _categoryZRepository.Create(category);
             message = "Successful";
             return result;
         }
@@ -45,51 +41,40 @@ namespace BusinessLogicLayer.Service
 
         public bool DeleteCategory(int id, out string message)
         {
-            if (id <= 0)
+            //CategoryZ? category = _categoryZRepository.Get(id);
+            CategoryZ Result = GetCategory(id);
+
+            if (Result == null)
             {
-                message = "Invalid";
+                message = "Invalid id";
                 return false;
             }
 
-            Category? category = _categoryRepository.Get(id);
-
-            if (category == null)
-            {
-                message = "Return a Number";
-                return false;
-            }
-
-            _categoryRepository.Delete(category);
+            _categoryZRepository.Delete(Result);
             message = "Deleted Successfully";
             return true;
 
         }
 
-        public List<Category> GetAllCategory()
+        public List<CategoryZ> GetAllCategory()
         {
-            return _categoryRepository.Get();
+            return _categoryZRepository.Get();
         }
 
-        public Category? GetCategory(int id)
+        public CategoryZ? GetCategory(int id)
         {
             if (id <= 0)
             {
                 return null;
             }
-            return _categoryRepository.Get(id);
+            return _categoryZRepository.Get(id);
         }
 
-        public Category? UpdateCategory(Category category, out string message)
+        public CategoryZ? UpdateCategory(CategoryZ category, out string message)
         {
             if (category.Id <= 0)
             {
                 message = "Invalid Id";
-                return null;
-            }
-
-            if (string.IsNullOrWhiteSpace(category.Description))
-            {
-                message = "Description is Required";
                 return null;
             }
 
@@ -99,7 +84,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Category? updatedCategory = _categoryRepository.Update(category);
+            CategoryZ? updatedCategory = _categoryZRepository.Update(category);
 
             if (updatedCategory is null)
             {

@@ -57,6 +57,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.13, )"
@@ -155,6 +159,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -225,6 +235,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.13, )"
@@ -309,6 +323,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

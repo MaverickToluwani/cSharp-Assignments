@@ -36,7 +36,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CategoryZs");
+                    b.ToTable("CategoriesZ");
                 });
 
             modelBuilder.Entity("DomainLayer.Models.BlogModels.Comment", b =>
@@ -56,6 +56,9 @@ namespace DataAccessLayer.Migrations
 
                     b.Property<int>("PostId")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");

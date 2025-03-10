@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using DomainLayer.Models;
 using DomainLayer.Models.BlogModels;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Data
 {
-    public class ApplicationDbContext:DbContext
+    public class ApplicationDbContext: IdentityDbContext<UserTest, Role, string>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options) : base(options)
         {
@@ -53,6 +54,10 @@ namespace DataAccessLayer.Data
                 .WithMany(U => U.Likes) // Ensure there's no conflicting cascade
                 .HasForeignKey(c => c.PostId)
                 .OnDelete(DeleteBehavior.NoAction); // Prevent multiple cascades
+
+
+            //modelBuilder.Entity<UserLoginObj>()
+            //    .HasKey(x => new { x.Stuff });
         }
 
         internal void SaveChanges(Category category)

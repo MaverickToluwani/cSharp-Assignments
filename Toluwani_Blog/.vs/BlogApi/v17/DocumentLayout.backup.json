@@ -3,40 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\usertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\usertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\iservice\\icategorieszservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\iservice\\icategorieszservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\userloginobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\userloginobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\repositries\\categoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\categoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\repositries\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\repositries\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\irepositories\\icategoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\icategoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\mappermethods\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\mappermethods\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\mappermethods\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\mappermethods\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\iservice\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\iservice\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\service\\categorieszservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\categorieszservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\repositries\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\irepositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\repositries\\categoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\categoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\repositries\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\categoryz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\categoryz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\iservice\\icategorieszservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\iservice\\icategorieszservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\controllers\\categoryzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\categoryzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\irepositories\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\irepositories\\icategoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\icategoryzrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\mappermethods\\categoryzmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,106 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\dto\\categorydto\\deleterequestcategoryzdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\categorydto\\deleterequestcategoryzdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\dto\\createrequestcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\createrequestcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\dto\\categorydto\\categoryzdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\categorydto\\categoryzdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\mappermethods\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\mappermethods\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\categoryz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\categoryz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\models\\blogmodels\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\irepositories\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\iservice\\ilikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\iservice\\ilikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\service\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\mappermethods\\likemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\mappermethods\\likemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\mappermethods\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\mappermethods\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\iservice\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\iservice\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\mappermethods\\postmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\mappermethods\\postmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\domainlayer\\dto\\likedto\\likedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\likedto\\likedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\businesslogiclayer1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\repositries\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\desktop\\csharp-assignments\\toluwani_blog\\dataaccesslayer1\\irepositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,474 +110,331 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CategoryRepository.cs",
-              "RelativeToolTip": "DataAccessLayer1\\Repositries\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:06:05.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryZRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
-              "RelativeToolTip": "DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:59:31.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LikeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\LikeRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\LikeRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\LikeRepository.cs",
-              "RelativeToolTip": "DataAccessLayer1\\Repositries\\LikeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:46:19.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICategoriesZService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "UserLoginObj.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\UserLoginObj.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\UserLoginObj.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\UserLoginObj.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\UserLoginObj.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:08:24.326Z",
+              "WhenOpened": "2025-03-10T14:31:16.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CategoryService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CategoryService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\Service\\CategoryService.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Title": "UserTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\UserTest.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\UserTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\UserTest.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\UserTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:13:15.912Z",
+              "WhenOpened": "2025-03-10T14:21:54.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Role.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\Role.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Role.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:56:32.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\User.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\User.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\User.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:51:14.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ICategoryZRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
-              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Title": "CommentMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CommentMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\CommentMapper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CommentMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\CommentMapper.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:59:54.633Z",
+              "WhenOpened": "2025-03-10T12:31:05.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CategoriesZService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CategoriesZService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\CategoriesZService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CategoriesZService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\Service\\CategoriesZService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:07:39.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\IService\\ICategoryService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoryService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\IService\\ICategoryService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:09:43.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICategory.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICategory.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\ICategory.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICategory.cs",
-              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\ICategory.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAC8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:00:02.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DeleteRequestCategoryZDto.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:55:02.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateRequestCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CreateRequestCategoryDto.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CreateRequestCategoryDto.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CreateRequestCategoryDto.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\CreateRequestCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:55:21.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryZDto.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CategoryDTO\\CategoryZDto.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CategoryDTO\\CategoryZDto.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CategoryDTO\\CategoryZDto.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\CategoryDTO\\CategoryZDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:50:57.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DataAccessLayer1\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:48:46.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoryZMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAB4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:47:53.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "CategoryMapper.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CategoryMapper.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\CategoryMapper.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CategoryMapper.cs",
               "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\CategoryMapper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:46:56.626Z",
+              "WhenOpened": "2025-03-10T12:30:45.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryZ.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
-              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:45:54.257Z",
+              "WhenOpened": "2025-03-10T08:44:48.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Post.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\Post.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Post.cs",
-              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:46:11.083Z",
+              "WhenOpened": "2025-03-10T12:27:28.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CommentService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\CommentService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CommentService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\Service\\CommentService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:04:42.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICommentService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\IService\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICommentService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\IService\\ICommentService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:05:22.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICommentRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\ICommentRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:11:15.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CommentRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Repositries\\CommentRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:27:55.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Comment.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\Comment.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Comment.cs",
               "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\Comment.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:45:41.523Z",
+              "WhenOpened": "2025-03-10T08:52:26.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Program.cs",
-              "RelativeDocumentMoniker": "BlogApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Program.cs",
-              "RelativeToolTip": "BlogApi\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CategoriesZService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CategoriesZService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\CategoriesZService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\CategoriesZService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\Service\\CategoriesZService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAF8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:41:12.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LikeService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\LikeService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\LikeService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\LikeService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\Service\\LikeService.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAHAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:06:37.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\UserService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\Service\\UserService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:29:34.139Z",
+              "WhenOpened": "2025-03-10T06:09:07.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Like.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Like.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\Like.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\Like.cs",
-              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\Like.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Title": "LikeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\LikeRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\LikeRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\LikeRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Repositries\\LikeRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:15:54.302Z",
+              "WhenOpened": "2025-03-10T09:27:57.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ILikeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ILikeRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\ILikeRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ILikeRepository.cs",
-              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\ILikeRepository.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAD4vzMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "CategoryZRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Repositries\\CategoryZRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:47:01.426Z",
+              "WhenOpened": "2025-03-10T08:36:20.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ILikeService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ILikeService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\IService\\ILikeService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ILikeService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\IService\\ILikeService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBkAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Program.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Program.cs",
+              "RelativeToolTip": "BlogApi\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:06:55.873Z",
+              "WhenOpened": "2025-03-10T08:20:23.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LikeController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\LikeController.cs",
-              "RelativeDocumentMoniker": "BlogApi\\Controllers\\LikeController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\LikeController.cs",
-              "RelativeToolTip": "BlogApi\\Controllers\\LikeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "CategoryZ.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\CategoryZ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:28:00.115Z",
+              "WhenOpened": "2025-03-10T08:46:31.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LikeMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\LikeMapper.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\LikeMapper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\LikeMapper.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\LikeMapper.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:13:11.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:05:59.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "BlogApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "BlogApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:26:00.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "BlogApi\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\PostController.cs",
-              "RelativeToolTip": "BlogApi\\Controllers\\PostController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:32:03.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LikeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\LikeDTO\\LikeDto.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\LikeDTO\\LikeDto.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\LikeDTO\\LikeDto.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\LikeDTO\\LikeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:14:04.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 20,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "BlogApi\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "BlogApi\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:12:10.704Z",
+              "WhenOpened": "2025-03-10T06:23:48.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PostMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\PostMapper.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\PostMapper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\PostMapper.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\PostMapper.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "CategoryZController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\CategoryZController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\CategoryZController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BlogApi\\Controllers\\CategoryZController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\CategoryZController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:05:29.601Z",
+              "WhenOpened": "2025-03-10T06:23:45.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IPostService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\IPostService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\IService\\IPostService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\IPostService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\IService\\IPostService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "CategoryZMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\CategoryZMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:08:29.987Z",
+              "WhenOpened": "2025-03-10T08:00:30.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\PostService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\PostService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\Service\\PostService.cs",
-              "RelativeToolTip": "BusinessLogicLayer1\\Service\\PostService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "ICategoryZRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\ICategoryZRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:29:24.019Z",
+              "WhenOpened": "2025-03-10T08:31:39.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\PostRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\Repositries\\PostRepository.cs",
-              "RelativeToolTip": "DataAccessLayer1\\Repositries\\PostRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBwAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "ICategoriesZService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\IService\\ICategoriesZService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:51:06.259Z",
+              "WhenOpened": "2025-03-10T08:38:46.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\IPostRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\IPostRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DataAccessLayer1\\IRepositories\\IPostRepository.cs",
-              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\IPostRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACcAAAASAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\IService\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\BusinessLogicLayer1\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\IService\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:47:22.171Z",
+              "WhenOpened": "2025-03-10T08:37:52.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeleteRequestCategoryZDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cSharp-Assignments\\Toluwani_Blog\\DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CategoryDTO\\DeleteRequestCategoryZDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:06:59.23Z",
               "EditorCaption": ""
             }
           ]

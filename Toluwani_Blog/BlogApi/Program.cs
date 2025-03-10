@@ -25,6 +25,10 @@ builder.Services.AddScoped<PostMapper>();
 builder.Services.AddScoped<ILikeRepository, LikeRepository>();
 builder.Services.AddScoped<ILikeService, LikeService>();
 builder.Services.AddScoped<LikeMapper>();
+builder.Services.AddScoped<ICategoryZRepository, CategoryZRepository>();
+builder.Services.AddScoped<ICategoriesZService, CategoriesZService>();
+builder.Services.AddScoped<CategoryZMapper>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 
 
 
