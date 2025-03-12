@@ -1,54 +1,38 @@
-﻿using System;
+﻿using DomainLayer.DTO;
+using DomainLayer.DTO.CategoryDTO;
+using DomainLayer.Models;
+using DomainLayer.Models.BlogModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using DomainLayer.DTO;
-using DomainLayer.Models;
 
 namespace BusinessLogicLayer.MapperMethods
 {
     public class CategoryMapper
     {
-        public Category MapCategoryRequestToCategory(CreateRequestCategoryDto createRequestCategoryDto)
+        public DomainLayer.Models.BlogModels.Category MapCategoryDtoToCategory(CategoryZDto CategoryZDto)
         {
-            return new Category
+            return new DomainLayer.Models.BlogModels.Category
             {
-                Name = createRequestCategoryDto.Name,
-                Description = createRequestCategoryDto.Description,
-                CreatedAt =  DateTime.UtcNow
+                Name = CategoryZDto.Name,
             };
         }
 
-        public CategoryDto MapCategoryToCategoryDto(Category category)
+        public CategoryZDto MapCategoryToCategoryZDto(DomainLayer.Models.BlogModels.Category category)
         {
-            return new CategoryDto
+            return new CategoryZDto
             {
-                Id = category.Id,
                 Name = category.Name,
-                Description = category.Description,
-                CreatedAt = category.CreatedAt,
-                UpdatedAt = category.UpdateAt
             };
         }
 
-        public Category MapUpdateCategoryRequestToCategory(UpdateRequestCategoryDto updateRequestCategoryDto)
+        public DomainLayer.Models.BlogModels.Category MapDeleteCategoryZRequestToCategoryZ(DeleteRequestCategoryZDto deleteRtCategoryDto)
         {
-            return new Category
+            return new DomainLayer.Models.BlogModels.Category
             {
-                Id  = updateRequestCategoryDto.Id,
-                Name = updateRequestCategoryDto.Name,
-                Description = updateRequestCategoryDto.Description,
-               
-            };
-        }
-
-        public Category MapDeleteCategoryRequestToCategory(DeleteRequestCategoryDto deleteRequestCategoryDto)
-        {
-            return new Category
-            {
-                Id = deleteRequestCategoryDto.Id
+                Id = deleteRtCategoryDto.Id
             };
         }
     }

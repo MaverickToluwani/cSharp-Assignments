@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.IRepositories
 {
-    public interface ICategoryZRepository
+    public interface ICategoryRepository
     {
         /// <summary>
         /// Get product Id
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Category Object by Id</returns>
-        CategoryZ? Get(int id);
+        DomainLayer.Models.BlogModels.Category? Get(int id);
 
 
 
@@ -23,7 +23,7 @@ namespace DataAccessLayer.IRepositories
         /// List of Category
         /// </summary>
         /// <returns>List of Category</returns>
-        List<CategoryZ> Get();
+        List<DomainLayer.Models.BlogModels.Category> Get();
 
 
 
@@ -31,7 +31,7 @@ namespace DataAccessLayer.IRepositories
         /// Delete Category
         /// </summary>
         /// <param name="category"></param>
-        void Delete(CategoryZ category);
+        void Delete(DomainLayer.Models.BlogModels.Category category);
 
 
         /// <summary>
@@ -39,13 +39,13 @@ namespace DataAccessLayer.IRepositories
         /// </summary>
         /// <param name="category"></param>
         /// <returns>Category Object</returns>
-        CategoryZ Create(CategoryZ category);
+        DomainLayer.Models.BlogModels.Category Create(DomainLayer.Models.BlogModels.Category category);
 
         /// <summary>
         /// Update Category Details
         /// </summary>
         /// <param name="category"></param>
         /// <returns>Updated Object</returns>
-        CategoryZ? Update(CategoryZ category);
+        DomainLayer.Models.BlogModels.Category? Update(DomainLayer.Models.BlogModels.Category category);
     }
 }

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Data
 {
-    public class ApplicationDbContext: IdentityDbContext<UserTest, Role, string>
+    public class ApplicationDbContext: DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options) : base(options)
         {
@@ -18,9 +18,8 @@ namespace DataAccessLayer.Data
         }
 
         public DbSet<Product> Products { get; set; }
-        public DbSet<Category> Categories { get; set; }
-
-        public DbSet<CategoryZ> CategoriesZ { get; set; }
+        public DbSet<DomainLayer.Models.Category> Categories { get; set; }
+        public DbSet<DomainLayer.Models.BlogModels.Category> CategoriesZ { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Like> Likes { get; set; }
         public DbSet<Post> Posts { get; set; }
@@ -60,7 +59,7 @@ namespace DataAccessLayer.Data
             //    .HasKey(x => new { x.Stuff });
         }
 
-        internal void SaveChanges(Category category)
+        internal void SaveChanges(DomainLayer.Models.Category category)
         {
             throw new NotImplementedException();
         }

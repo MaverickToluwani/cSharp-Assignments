@@ -1,5 +1,6 @@
 ﻿using BusinessLogicLayer.IService;
 using DataAccessLayer.IRepositories;
+using DataAccessLayer.UnitOfWorkFolder;
 using DomainLayer.Models;
 using DomainLayer.Models.BlogModels;
 using System;
@@ -10,15 +11,17 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.Service
 {
-    public class UserService: IUserService
+    public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
+        //private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
         //Constructor of the UserService class
         //Require a IUserRepository object when creating the CategoryService class
-        public UserService(IUserRepository userRepository)
+        public UserService(IUnitOfWork unitOfWork)
         {
-            _userRepository = userRepository;
+            //_userRepository = userRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public User? CreateUser(User user, out string message)
@@ -35,7 +38,8 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            User result = _userRepository.CreateUser(user);
+            //User result = _userRepository.CreateUser(user);
+            User result = _unitOfWork.userRepository.CreateUser(user);
             message = "Successful";
             return result;
         }
@@ -50,7 +54,7 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            User? UserData = _userRepository.GetUser(id);
+            User? UserData = _unitOfWork.userRepository.GetUser(id);
 
             if (UserData == null)
             {
@@ -58,7 +62,8 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            _userRepository.DeleteUser(UserData);
+            _unitOfWork.userRepository.DeleteUser(UserData);
+
             message = "Deleted Successfully";
             return true;
 
@@ -66,7 +71,7 @@ namespace BusinessLogicLayer.Service
 
         public List<User> GetAllUsers()
         {
-            return _userRepository.GetAllUsers();
+            return _unitOfWork.userRepository.GetAllUsers();
         }
 
         public User? GetUser(int id)
@@ -75,7 +80,7 @@ namespace BusinessLogicLayer.Service
             {
                 return null;
             }
-            return _userRepository.GetUser(id);
+            return _unitOfWork.userRepository.GetUser(id);
         }
 
         public User? GetUserByRole(string role, out string message)
@@ -86,7 +91,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
             // fetch role first to check if role is valid 
-            User result = _userRepository.GetUserByRole(role);
+            User? result = _unitOfWork.userRepository.GetUserByRole(role);
 
             if (result == null)
             {
@@ -118,7 +123,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            User? updatedUSer = _userRepository.Update(user);
+            User? updatedUSer = _unitOfWork.userRepository.Update(user);
 
             if (updatedUSer is null)
             {

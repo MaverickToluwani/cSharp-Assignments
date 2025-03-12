@@ -8,21 +8,21 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.IService
 {
-    public interface ICategoriesZService
+    public interface ICategorieService
     {
         /// <summary>
         ///     Get category object
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Category object</returns>
-        CategoryZ GetCategory(int id);
+        DomainLayer.Models.BlogModels.Category GetCategory(int id);
 
 
         /// <summary>
         ///     Get all category in the database
         /// </summary>
         /// <returns>List of Category Object</returns>
-        List<CategoryZ> GetAllCategory();
+        List<DomainLayer.Models.BlogModels.Category> GetAllCategory();
 
         /// <summary>
         ///     Remove a Category
@@ -37,7 +37,7 @@ namespace BusinessLogicLayer.IService
         /// </summary>
         /// <param name="category"></param>
         /// <returns>Uodated Object</returns>
-        CategoryZ? UpdateCategory(CategoryZ category, out string message);
+        DomainLayer.Models.BlogModels.Category? UpdateCategory(DomainLayer.Models.BlogModels.Category category, out string message);
 
 
         /// <summary>
@@ -45,6 +45,6 @@ namespace BusinessLogicLayer.IService
         /// </summary>
         /// <param name="category"></param>
         /// <returns>Create a new Category object</returns>
-        CategoryZ? CreateCategory(CategoryZ category, out string message);
+        DomainLayer.Models.BlogModels.Category? CreateCategory(DomainLayer.Models.BlogModels.Category category, out string message);
     }
 }

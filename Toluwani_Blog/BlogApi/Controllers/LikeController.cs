@@ -1,6 +1,7 @@
 ﻿using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperMethods;
 using BusinessLogicLayer.Service;
+using BusinessLogicLayer.UnitOfWorkServicesFolder;
 using DomainLayer.DTO.LikeDTO;
 using DomainLayer.DTO.PostDTO;
 using DomainLayer.Models.BlogModels;
@@ -12,24 +13,25 @@ namespace BlogApi.Controllers
     [ApiController]
     public class LikeController : Controller
     {
-        ILikeService _likeServce;
+        //ILikeService _likeServce;
+        IUnitOfWorkService _unitOfWork;
         LikeMapper _likeMapper;
-        public LikeController(LikeMapper likeMapper, ILikeService likeService)
+        public LikeController(LikeMapper likeMapper, IUnitOfWorkService unitOfWork)
         {
             _likeMapper = likeMapper;
-            _likeServce = likeService;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
         public IActionResult GetAllLikes()
         {
-            return Ok(_likeServce.GetAllLikes());
+            return Ok(_unitOfWork.likeService.GetAllLikes());
         }
 
         [HttpGet]
         public IActionResult GetLikeByUserId(int Userid)
         {
-            List<Like> UserLikes = _likeServce.GetLikeByUserId(Userid, out string message);
+            List<Like> UserLikes = _unitOfWork.likeService.GetLikeByUserId(Userid, out string message);
 
             if (!UserLikes.Any())
             {
@@ -42,7 +44,7 @@ namespace BlogApi.Controllers
         [HttpGet]
         public IActionResult GetLikeByPostId(int PostId)
         {
-            List<Like> PostLikes = _likeServce.GetLikeByUserId(PostId, out string message);
+            List<Like> PostLikes = _unitOfWork.likeService.GetLikeByUserId(PostId, out string message);
 
             if (!PostLikes.Any())
             {
@@ -57,7 +59,7 @@ namespace BlogApi.Controllers
         {
             Like mappedLike = _likeMapper.MapLikeDtoToLike(LikeDetails);
 
-            bool PostDeleted = _likeServce.UnlikePost(mappedLike, out string message);
+            bool PostDeleted = _unitOfWork.likeService.UnlikePost(mappedLike, out string message);
 
             return Ok(PostDeleted);
 
@@ -68,7 +70,7 @@ namespace BlogApi.Controllers
         {
             Like mappedLike = _likeMapper.MapLikeDtoToLike(LikeDetails);
 
-            Like LikedPostByUser = _likeServce.GetPostByUserIdAndPostId(mappedLike, out string message);
+            Like LikedPostByUser = _unitOfWork.likeService.GetPostByUserIdAndPostId(mappedLike, out string message);
 
             if (LikedPostByUser == null)
             {

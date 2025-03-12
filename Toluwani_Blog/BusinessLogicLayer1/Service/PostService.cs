@@ -1,5 +1,6 @@
 ﻿using BusinessLogicLayer.IService;
 using DataAccessLayer.IRepositories;
+using DataAccessLayer.UnitOfWorkFolder;
 using DomainLayer.Models;
 using DomainLayer.Models.BlogModels;
 using System;
@@ -13,13 +14,15 @@ namespace BusinessLogicLayer.Service
 {
     public class PostService : IPostService
     {
-        private readonly IPostRepository _postRepository;
-        private readonly IUserRepository _userRepository;
+        //private readonly IPostRepository _postRepository;
+        //private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public PostService(IPostRepository postRepository, IUserRepository userRepository)
+        public PostService(IUnitOfWork unitOfWork)
         {
-            _postRepository = postRepository;
-            _userRepository = userRepository;
+            //_postRepository = postRepository;
+            //_userRepository = userRepository;
+            _unitOfWork = unitOfWork;
         }
         public Post? CreatePost(Post post, out string message)
         {
@@ -36,9 +39,9 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            User user = _userRepository.GetUser(post.AuthorId);
+            User? user = _unitOfWork.userRepository.GetUser(post.AuthorId);
 
-            if(user == null)
+            if (user == null)
             {
                 message = "Author cannot be found";
                 return null;
@@ -46,7 +49,7 @@ namespace BusinessLogicLayer.Service
 
             //category check
 
-            Post result = _postRepository.CreatePost(post);
+            Post result = _unitOfWork.postRepository.CreatePost(post);
             message = "Successful";
             return result;
         }
@@ -61,7 +64,7 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            Post? post = _postRepository.GetPostById(id);
+            Post? post = _unitOfWork.postRepository.GetPostById(id);
 
             if (post == null)
             {
@@ -69,7 +72,7 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            _postRepository.DeletePost(post);
+            _unitOfWork.postRepository.DeletePost(post);
             message = "Deleted Successfully";
             return true;
 
@@ -77,7 +80,7 @@ namespace BusinessLogicLayer.Service
 
         public List<Post> GetAllPost()
         {
-            return _postRepository.GetAllPost();
+            return _unitOfWork.postRepository.GetAllPost();
         }
 
         public Post? GetPost(int id)
@@ -86,7 +89,7 @@ namespace BusinessLogicLayer.Service
             {
                 return null;
             }
-            return _postRepository.GetPostById(id);
+            return _unitOfWork.postRepository.GetPostById(id);
         }
 
         public List<Post> GetPostByAuthorId(int AuthorId, out string message)
@@ -97,7 +100,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
             // fetch role first to check if role is valid 
-            List<Post> result = _postRepository.GetPostByAuthorId(AuthorId);
+            List<Post> result = _unitOfWork.postRepository.GetPostByAuthorId(AuthorId);
 
             if (result == null)
             {
@@ -129,7 +132,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Post? updatedPost = _postRepository.UpdatePost(post);
+            Post? updatedPost = _unitOfWork.postRepository.UpdatePost(post);
 
             if (updatedPost is null)
             {

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.DTO
+namespace DomainLayer.DTO.CommentDTO
 {
-    public class UpdateRequestCategoryDto
+    public class DeleteCommentDTo
     {
         public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? Description { get; set; }
     }
 }

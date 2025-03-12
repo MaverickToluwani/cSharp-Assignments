@@ -4,16 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.DTO
+namespace DomainLayer.Models.BlogModels
 {
-    public class CategoryDto
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
-        public string Description { get; set; }
 
-
+        public ICollection<Post> Posts { get; set; }
     }
 }

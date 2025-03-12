@@ -56,7 +56,7 @@ namespace DataAccessLayer.Repositries
 
             existingUser.Username = user.Username;
             existingUser.Email = user.Email;
-            existingUser.UpdateAt = user.UpdateAt; 
+            existingUser.UpdateAt = user.UpdateAt;
 
             _applicationDbContext.Users.Update(existingUser);
             _applicationDbContext.SaveChanges();

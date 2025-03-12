@@ -1,10 +1,11 @@
-using BusinessLogicLayer.CategoryService;
 using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperMethods;
 using BusinessLogicLayer.Service;
+using BusinessLogicLayer.UnitOfWorkServicesFolder;
 using DataAccessLayer.Data;
 using DataAccessLayer.IRepositories;
 using DataAccessLayer.Repositries;
+using DataAccessLayer.UnitOfWorkFolder;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,23 +13,24 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<ICategory, CategoryRepository>();
-builder.Services.AddScoped<IProduct, ProductRepository>();
-builder.Services.AddScoped<ICategoryService,CategoryService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICategorieService, CategoriesService>();
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<CategoryMapper>();
-builder.Services.AddScoped<UserMapper>();
+//builder.Services.AddScoped<UserMapper>();
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<PostMapper>();
 builder.Services.AddScoped<ILikeRepository, LikeRepository>();
 builder.Services.AddScoped<ILikeService, LikeService>();
 builder.Services.AddScoped<LikeMapper>();
-builder.Services.AddScoped<ICategoryZRepository, CategoryZRepository>();
-builder.Services.AddScoped<ICategoriesZService, CategoriesZService>();
-builder.Services.AddScoped<CategoryZMapper>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategorieService, CategoriesService>();
+builder.Services.AddScoped<CategoryMapper>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IUnitOfWorkService, UnitOfWorkService>();
 
 
 

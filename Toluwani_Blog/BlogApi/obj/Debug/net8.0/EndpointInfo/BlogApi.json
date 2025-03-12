@@ -48,17 +48,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateRequestCategoryDto"
+                "$ref": "#/components/schemas/CategoryZDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateRequestCategoryDto"
+                "$ref": "#/components/schemas/CategoryZDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateRequestCategoryDto"
+                "$ref": "#/components/schemas/CategoryZDto"
               }
             }
           }
@@ -79,17 +79,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateRequestCategoryDto"
+                "$ref": "#/components/schemas/CategoryZDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateRequestCategoryDto"
+                "$ref": "#/components/schemas/CategoryZDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateRequestCategoryDto"
+                "$ref": "#/components/schemas/CategoryZDto"
               }
             }
           }
@@ -105,133 +105,6 @@
       "delete": {
         "tags": [
           "Category"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteRequestCategoryDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteRequestCategoryDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteRequestCategoryDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/CategoryZ/GetCategory": {
-      "get": {
-        "tags": [
-          "CategoryZ"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/CategoryZ/GetById": {
-      "get": {
-        "tags": [
-          "CategoryZ"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/CategoryZ/CreateCategory": {
-      "post": {
-        "tags": [
-          "CategoryZ"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CategoryZDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CategoryZDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CategoryZDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/CategoryZ/UpdateCategory": {
-      "post": {
-        "tags": [
-          "CategoryZ"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CategoryZDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CategoryZDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CategoryZDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/CategoryZ/DeleteCategory": {
-      "delete": {
-        "tags": [
-          "CategoryZ"
         ],
         "requestBody": {
           "content": {
@@ -709,20 +582,6 @@
         },
         "additionalProperties": false
       },
-      "CreateRequestCategoryDto": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateUserRequest": {
         "type": "object",
         "properties": {
@@ -742,16 +601,6 @@
         "additionalProperties": false
       },
       "DeletePostRequest": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "DeleteRequestCategoryDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -813,24 +662,6 @@
           "categoryId": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateRequestCategoryDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

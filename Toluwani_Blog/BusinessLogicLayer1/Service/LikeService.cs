@@ -2,33 +2,30 @@
 using DataAccessLayer.IRepositories;
 using DataAccessLayer.Migrations;
 using DataAccessLayer.Repositries;
-using DomainLayer.DTO.UserDTO;
-using DomainLayer.Models;
+using DataAccessLayer.UnitOfWorkFolder;
 using DomainLayer.Models.BlogModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace BusinessLogicLayer.Service
 {
     public class LikeService : ILikeService
     {
-        private readonly ILikeRepository _likeRepository;
-        private readonly IPostRepository _postRepository;
-        private readonly IUserRepository _userRepository;
+        //private readonly ILikeRepository _likeRepository;
+        //private readonly IPostRepository _postRepository;
+        //private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public LikeService(ILikeRepository likeRepository, IPostRepository postRepository, IUserRepository userRepository)
+        public LikeService(IUnitOfWork unitOfWork)
         {
-            _likeRepository = likeRepository;
-            _postRepository = postRepository;
-            _userRepository = userRepository;
+            //_likeRepository = likeRepository;
+            //_postRepository = postRepository;
+            //_userRepository = userRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public List<Like> GetAllLikes()
         {
-            return _likeRepository.GetAllLikes();
+            return _unitOfWork.likeRepository.GetAllLikes();
         }
 
         public List<Like> GetLikeByPostId(int PostId, out string message)
@@ -39,7 +36,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Post? postData = _postRepository.GetPostById(PostId);
+            Post? postData = _unitOfWork.postRepository.GetPostById(PostId);
 
             if (postData == null)
             {
@@ -47,7 +44,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
             message = "fetched successfully";
-            return _likeRepository.GetLikeByPostId(PostId);
+            return _unitOfWork.likeRepository.GetLikeByPostId(PostId);
         }
 
         public List<Like> GetLikeByUserId(int UserId, out string message)
@@ -58,15 +55,15 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            User? userData = _userRepository.GetUser(UserId);
+            User? userData = _unitOfWork.userRepository.GetUser(UserId);
 
-            if(userData == null)
+            if (userData == null)
             {
                 message = "User not found";
                 return null;
             }
             message = "List of posts liked by user fetched successfully";
-            return _likeRepository.GetLikeByUserId(UserId);
+            return _unitOfWork.likeRepository.GetLikeByUserId(UserId);
 
         }
 
@@ -77,8 +74,8 @@ namespace BusinessLogicLayer.Service
                 message = "Invalid post Id or Reader Id";
                 return null;
             }
-            User? fetchUser = _userRepository.GetUser(like.UserId);
-            Post? fetchPost = _postRepository.GetPostById(like.PostId);
+            User? fetchUser = _unitOfWork.userRepository.GetUser(like.UserId);
+            Post? fetchPost = _unitOfWork.postRepository.GetPostById(like.PostId);
 
             if (fetchUser == null || fetchPost == null)
             {
@@ -87,30 +84,15 @@ namespace BusinessLogicLayer.Service
             }
             message = "Post Liked successfully";
 
-            Like likedPost = _likeRepository.LikePost(like);
+            Like likedPost = _unitOfWork.likeRepository.LikePost(like);
             return likedPost;
 
         }
 
         public bool UnlikePost(Like like, out string message)
         {
-            //if (like.UserId <= 0 || like.PostId <= 0)
-            //{
-            //    message = "Invalid post Id or Reader Id";
-            //    return false;
-            //}
 
-            //List<Like> LikedPost = _likeRepository.GetLikeByPostId(like.PostId);
-
-            //List<Like> UserLikedPost = _likeRepository.GetLikeByUserId(like.UserId);
-
-            //if (!LikedPost.Any() || !UserLikedPost.Any())
-            //{
-            //    message = "Post or user not found";
-            //    return false;
-            //}
-
-            Like LikeData = _likeRepository.GetPostByUserIdAndPostId(like);
+            Like LikeData = _unitOfWork.likeRepository.GetPostByUserIdAndPostId(like);
 
             if (LikeData == null)
             {
@@ -118,7 +100,7 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            _likeRepository.UnlikePost(LikeData);
+            _unitOfWork.likeRepository.UnlikePost(LikeData);
 
             message = "Unliked Successfully";
             return true;
@@ -132,9 +114,9 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            List<Like> LikedPost = _likeRepository.GetLikeByPostId(like.PostId);
+            List<Like> LikedPost = _unitOfWork.likeRepository.GetLikeByPostId(like.PostId);
 
-            List<Like> UserLikedPost = _likeRepository.GetLikeByUserId(like.UserId);
+            List<Like> UserLikedPost = _unitOfWork.likeRepository.GetLikeByUserId(like.UserId);
 
             if (!LikedPost.Any() || !UserLikedPost.Any())
             {
@@ -142,7 +124,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Like LikedPostByUser = _likeRepository.GetPostByUserIdAndPostId(like);
+            Like LikedPostByUser = _unitOfWork.likeRepository.GetPostByUserIdAndPostId(like);
             message = "fetched Successfully";
 
             return LikedPostByUser;

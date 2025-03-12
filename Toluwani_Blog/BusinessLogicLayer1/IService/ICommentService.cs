@@ -17,7 +17,7 @@ namespace BusinessLogicLayer.IService
 
         Comment? GetCommentById(int id);
 
-        Comment? UpdateCategory(Comment comment, out string message);
+        Comment? UpdateComment(Comment comment, out string message);
 
         bool VerifyUsersCommentOnPost(Comment comment);
         

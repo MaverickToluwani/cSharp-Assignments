@@ -5,6 +5,7 @@ using DomainLayer.Models.BlogModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,19 +35,21 @@ namespace BusinessLogicLayer.MapperMethods
             };
         }
 
-        public Category MapUpdateCommentRequestToComment(UpdateRequestCategoryDto updateRequestCategoryDto)
+        public Comment MapUpdateCommentRequestToComment(UpdateCommentDto updateCommentDto)
         {
-            return new Category
+            return new Comment
             {
-                Id = updateRequestCategoryDto.Id,
-                Name = updateRequestCategoryDto.Name,
-                Description = updateRequestCategoryDto.Description,
+                Id = updateCommentDto.Id,
+                Content = updateCommentDto.Content,
+                PostId = updateCommentDto.PostId,
+                UserId = updateCommentDto.UserId,
+                UpdatedAt = DateTime.Now
             };
         }
 
-        public Category MapDeleteCategoryRequestToCategory(DeleteRequestCategoryDto deleteRequestCategoryDto)
+        public Comment MapDeleteCategoryRequestToCategory(DeleteCommentDTo deleteRequestCategoryDto)
         {
-            return new Category
+            return new Comment
             {
                 Id = deleteRequestCategoryDto.Id
             };

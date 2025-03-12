@@ -1,6 +1,6 @@
-﻿using BusinessLogicLayer.CategoryService;
-using BusinessLogicLayer.IService;
+﻿using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperMethods;
+using BusinessLogicLayer.UnitOfWorkServicesFolder;
 using DomainLayer.DTO;
 using DomainLayer.DTO.UserDTO;
 using DomainLayer.Models;
@@ -13,25 +13,27 @@ namespace BlogApi.Controllers
     [ApiController]
     public class UserController : Controller
     {
-        IUserService _userService;
+        IUnitOfWorkService _unitOfWork;
+        //IUserService _userService;
         UserMapper _userMapper;
 
-        public UserController(IUserService userService, UserMapper userMapper)
+        public UserController(IUnitOfWorkService unitOfWork, UserMapper userMapper)
         {
-            _userService = userService;
+            //_userService = userService;
             _userMapper = userMapper;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
         public IActionResult GetAllUsers()
         {
-            return Ok(_userService.GetAllUsers());
+            return Ok(_unitOfWork.userService.GetAllUsers());
         }
 
         [HttpGet]
         public IActionResult GetById(int id)
         {
-            User user = _userService.GetUser(id);
+            User? user = _unitOfWork.userService.GetUser(id);
 
             if (user == null)
             {
@@ -47,7 +49,7 @@ namespace BlogApi.Controllers
         [HttpGet]
         public IActionResult GetByRole(string role)
         {
-            User user = _userService.GetUserByRole(role, out string message);
+            User? user = _unitOfWork.userService.GetUserByRole(role, out string message);
 
             if (user == null)
             {
@@ -68,7 +70,7 @@ namespace BlogApi.Controllers
             User mappedUser = _userMapper.MapCreateUserRequestToUser(user);
 
 
-            User? createdUser = _userService.CreateUser(mappedUser, out string message);
+            User? createdUser = _unitOfWork.userService.CreateUser(mappedUser, out string message);
 
             if (createdUser == null)
             {
@@ -84,7 +86,7 @@ namespace BlogApi.Controllers
         {
             User mappedUser = _userMapper.MapUpdateUserRequestToUser(user);
 
-            User? UserUpdated = _userService.UpdateUser(mappedUser, out string message);
+            User? UserUpdated = _unitOfWork.userService.UpdateUser(mappedUser, out string message);
 
             if (UserUpdated is null)
             {
@@ -101,10 +103,11 @@ namespace BlogApi.Controllers
         {
             User mappedUser = _userMapper.MapDeleteUserRequestToCategory(user);
 
-            bool UserDeleted = _userService.DeleteUser(mappedUser.Id, out string message);
+            bool UserDeleted = _unitOfWork.userService.DeleteUser(mappedUser.Id, out string message);
 
             return Ok(UserDeleted);
 
         }
     }
 }
+

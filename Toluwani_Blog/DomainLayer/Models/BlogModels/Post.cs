@@ -19,7 +19,7 @@ namespace DomainLayer.Models.BlogModels
         [ForeignKey("AuthorId")]
         public User Author { get; set; }
         [ForeignKey("CategoryId")]
-        public CategoryZ Category { get; set; }
+        public Category Category { get; set; }
         public int CategoryId { get; set; }
 
         public ICollection<Comment> Comments { get; set; }

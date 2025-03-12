@@ -1,6 +1,7 @@
 ﻿using BusinessLogicLayer.IService;
 using DataAccessLayer.IRepositories;
 using DataAccessLayer.Repositries;
+using DataAccessLayer.UnitOfWorkFolder;
 using DomainLayer.Models.BlogModels;
 using System;
 using System.Collections.Generic;
@@ -13,19 +14,19 @@ namespace BusinessLogicLayer.Service
     public class CommentService: ICommentService
     {
         //Private variable that stores the ICategoryRepository object
-        private readonly ICommentRepository _commentRepository;
-        private readonly IPostRepository _postRepository;
-        private readonly IUserRepository _userRepository;
-
+        //private readonly ICommentRepository _commentRepository;
+        //private readonly IPostRepository _postRepository;
+        //private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
         //Constructor of the CategoryService class
         //Require a ICategoryRepository object when creating the CategoryService class
-        public CommentService(ICommentRepository commentRepository, IPostRepository postRepository, IUserRepository userRepository)
+        public CommentService(IUnitOfWork unitOfWork)
         {
             //this assigns the passed in categoryRepository to the private variable _categoryRepository
-            _commentRepository = commentRepository;
-            _postRepository = postRepository;
-            _userRepository = userRepository;
-
+            //_commentRepository = commentRepository;
+            //_postRepository = postRepository;
+            //_userRepository = userRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public Comment? CreateComment(Comment comment, out string message)
@@ -43,7 +44,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Comment result = _commentRepository.Create(comment);
+            Comment result = _unitOfWork.commentRepository.Create(comment);
 
             message = "Successful";
             return result;
@@ -61,14 +62,14 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            _commentRepository.Delete(Result);
+            _unitOfWork.commentRepository.Delete(Result);
             message = "Deleted Successfully";
             return true;
         }
 
         public List<Comment> GetAllComment()
         {
-            return _commentRepository.Get();
+            return _unitOfWork.commentRepository.Get();
         }
 
         public Comment? GetCommentById(int id)
@@ -77,10 +78,10 @@ namespace BusinessLogicLayer.Service
             {
                 return null;
             }
-            return _commentRepository.Get(id);
+            return _unitOfWork.commentRepository.Get(id);
         }
 
-        public Comment? UpdateCategory(Comment comment, out string message)
+        public Comment? UpdateComment(Comment comment, out string message)
         {
             if (comment.Id <= 0)
             {
@@ -102,7 +103,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Comment? updatedComment = _commentRepository.Update(comment);
+            Comment? updatedComment = _unitOfWork.commentRepository.Update(comment);
 
             if (updatedComment is null)
             {
@@ -116,13 +117,13 @@ namespace BusinessLogicLayer.Service
 
         public bool VerifyUsersCommentOnPost(Comment comment)
         {
-            Post? GetPost = _postRepository.GetPostById(comment.PostId);
+            Post? GetPost = _unitOfWork.postRepository.GetPostById(comment.PostId);
 
             if (GetPost == null)
             {
                 return false;
             }
-            User? GetUser = _userRepository.GetUser(comment.UserId);
+            User? GetUser = _unitOfWork.userRepository.GetUser(comment.UserId);
 
             if (GetUser == null)
             {
